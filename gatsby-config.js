@@ -1,34 +1,26 @@
 module.exports = {
   siteMetadata: {
-    title: `Novela by Narative`,
-    name: `Narative`,
-    siteUrl: `https://novela.narative.co`,
-    description: `This is my description that will be used in the meta tags and important for search results`,
+    title: `Courtney Corlew`,
+    name: `Courtney Corlew`,
+    siteUrl: `https://courtneycorlew.com`,
+    description: `Courtney Corlew is a software engineer writing about foster care and finding your place in tech.`,
     hero: {
-      heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
+      heading: `Hi, I'm Courtney. I write about foster care and finding your place in tech.`,
       maxWidth: 652,
     },
     social: [
       {
-        name: `twitter`,
-        url: `https://twitter.com/narative`,
+        url: `https://twitter.com/courtneyecorlew`,
       },
       {
-        name: `github`,
-        url: `https://github.com/narative`,
+        url: `https://github.com/courtneycorlew`,
       },
       {
-        name: `instagram`,
-        url: `https://instagram.com/narative.co`,
+        url: `https://instagram.com/courtneycorlew`,
       },
       {
-        name: `linkedin`,
-        url: `https://www.linkedin.com/company/narative/`,
-      },
-      {
-        name: `dribbble`,
-        url: `https://dribbble.com/narativestudio`,
-      },
+        url: `https://www.linkedin.com/in/courtneycorlew/`,
+      }
     ],
   },
   plugins: [
@@ -38,7 +30,7 @@ module.exports = {
         contentPosts: "content/posts",
         contentAuthors: "content/authors",
         basePath: "/",
-        authorsPage: true,
+        authorsPage: false,
         sources: {
           local: true,
           // contentful: true,
@@ -48,8 +40,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Novela by Narative`,
-        short_name: `Novela`,
+        name: `Courtney Corlew`,
+        short_name: `Courtney Corlew`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#fff`,

@@ -1,0 +1,9 @@
+- name: Courtney Corlew
+  bio: |
+    Software Engineer living in Indianapolis.
+  avatar: ./avatars/me.jpeg
+  featured: true
+  social:
+    - url: https://twitter.com/courtneyecorlew
+    - url: https://github.com/courtneycorlew
+    - url: https://instagram.com/courtneycorlew
